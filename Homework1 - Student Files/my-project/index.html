@@ -1,76 +1,120 @@
-<!-- TO-DO -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Parallax styling */
+    .parallax {
+      background-image: url("image/background.jpg");
+      min-height: 600px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <!-- title -->
-    <h1 class="houseDesign">House Design</h1>
-    <br>
-    <!-- how do I make the navigation bar/title stay on the top at all times -->
-    <!-- how to do I make this have the click icon cursor -->
-    <!-- navigation bar -->
-    <a class="navigation" href="">Home</a>
-    <a class="navigation">Story</a>
-    <a class="navigation">Services</a>
-    <a class="navigation">Contact</a>
-    <hr>    
+  <header class="header">
+    <!-- Title -->
+    <p class="houseDesign">House Design</p>
+
+    <!-- Navigation bar -->
+    <div class="navigation">
+      <a class="navigation2" href="#">Home</a>
+      <a class="navigation2" href="#">Story</a>
+      <a class="navigation2" href="#">Services</a>
+      <a class="navigation2" href="#">Contact</a>
+    </div>
   </header>
+
+  <main>
+    <!-- Parallax section -->
+    <div class="parallax"></div>
+
+    <!-- House Styling Section -->
+    <p class="housestyling">House Styling</p>
+
+    <!-- Image Gallery Section -->
+    <div class="imagecontainer">
+      <div class="picture">
+        <img class="img" src="image/image_1.jpg" width="350" height="300">
+        <p class="centertext">Living Room</p>
+        <button class="button">Browse</button>
+      </div>
+
+      <div class="picture">
+        <img class="img" src="image/image_2.jpg" width="350" height="300">
+        <p class="centertext">Kitchen</p>
+        <button class="button">Browse</button>
+      </div>
+
+      <div class="picture">
+        <img class="img" src="image/image_3.jpg" width="350" height="300">
+        <p class="centertext">Bathroom</p>
+        <button class="button">Browse</button>
+      </div>
+
+      <div class="picture">
+        <img class="img" src="image/image_4.jpg" width="350" height="300">
+        <p class="centertext">Hallway</p>
+        <button class="button">Browse</button>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>  
+      <div class="footer-Container2">
+        <div class="footer-Container">
+          <h1 class="Footer">Store Info</h1>
+          <a class="FooterContent2">Address:</a>
+          <a class="FooterContent">XXXXXXX</a>
+          <a class="FooterContent2">Store Hours:</a>
+          <a class="FooterContent">Monday - Saturday: 10:00 AM - 6:00 PM</a>
+          <a class="FooterContent"><span style="font-weight: bold;">Phone:</span> 000-000-0000</a>
+          <a class="FooterContent3"><span style="font-weight: bold;">Email:</span> XXXXX@XXXXX.com</span></a>
+          <button class="buttonfooter">💗 Follow Us</button>
+          <!-- <a class="FooterContent2">Email: XXXXX@XXXXX.com</a> -->
+        </div>
+
+        <div class="footer-Container">
+          <h1 class="Footer">About</h1>
+          <a class="FooterContent">Our Story</a>
+          <a class="FooterContent">Contact Us</a>
+          <a class="FooterContent">News & Blog</a>
+          <a class="FooterContent">Modern Companies</a>
+          <a class="FooterContent">Trade Shows & Exhibits</a>
+          <a></a>
+        </div>
+        <div class="footer-Container">
+          <h1 class="Footer">Account</h1>
+          <a class="FooterContent">My Account</a>
+          <a class="FooterContent">Shopping Cart</a>
+          <a class="FooterContent">Track My Order</a>
+          <a class="FooterContent">Wholesale Accounts</a>
+          <a class="FooterContent">Newsletter Signup</a>
+        </div>
+        <div class="footer-Container">
+          <h1 class="Footer">Policy</h1>
+          <a class="FooterContent">Privacy Policy</a>
+          <a class="FooterContent">refund Policy</a>
+          <a class="FooterContent">Shipping Policy</a>
+          <a class="FooterContent">Tree Asembly Guide</a>
+          <a class="FooterContent">Terms & Conditions</a>
+        </div>
+      </div>
+        <!-- Website Information -->
+        <br>
+      </footer>
+    </div>
+  </main>
 </body>
 
+</html>
 
-<main>
-  <image  src="image/background.jpg" class="center"></image>
-</main>
-
-<footer>
-  <hr>
-  <!-- information about the website -->
-  <a class="Footer">Store Info</a>
-  <a class="Footer">About</a>
-  <a class="Footer">Account</a>
-  <a class="Footer">Policy</a>
-  <br>
-  <!-- how do I allign this with the other text -->
-  <a class="FooterContent">Address:</a>
-  <a class="FooterContent">Our Story</a>
-  <a class="FooterContent">My Account</a>
-  <a class="FooterContent">Privacy Policy</a>
-  <br>
-  <a class="FooterContent">XXXXXXX</a>
-  <a class="FooterContent">Contact Us</a>
-  <a class="FooterContent">Shopping Cart</a>
-  <a class="FooterContent">refund Policy</a>
-  <br>
-  <a class="FooterContent">Store Hours:</a>
-  <a class="FooterContent">News & Blog</a>
-  <a class="FooterContent">Track My Order</a>
-  <a class="FooterContent">Shipping Policy</a>
-  <br>
-  <a class="FooterContent">Monday - Saturday: 10:00 AM - 6:00 PM</a>
-  <a class="FooterContent">Modern Companies</a>
-  <a class="FooterContent">Wholesale Accounts</a>
-  <a class="FooterContent">Tree Asembly Guide</a>
-  <br>
-  <a class="FooterContent">Phone: 000-000-0000</a>
-  <a class="FooterContent">Trade Shows & Exhibits</a>
-  <a class="FooterContent">Newsletter Signup</a>
-  <a class="FooterContent">Terms & Conditions</a>
-  <br>
-  <a class="FooterContent">Email: XXXXX@XXXXX.com</a>
-</footer>
-<!-- <table>
-    <tr>
-      <td>
-        <img src="image/background.jpg" width="200px" height="200px">
-      </td>
-    </tr>
-</table> -->
 
                
