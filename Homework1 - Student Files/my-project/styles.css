@@ -48,10 +48,11 @@ For all other text, if not specified above, an approximate font size is acceptab
 
 .housestyling {
     text-align: left;
-    padding: 5%;
+    padding: 2%;
     color: #6f5eff;
     font-size: 20px;
     font-weight: bold;
+    transform: translateX(8%);
 }
 
 .Footer {
@@ -152,6 +153,7 @@ For all other text, if not specified above, an approximate font size is acceptab
     flex: 1 0 45%;
     width: 85%; 
     height: 30%;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -162,7 +164,7 @@ For all other text, if not specified above, an approximate font size is acceptab
 .picture{
     width: 45%;
     max-width: 50%;
-    height: 20%;
+    height: 40%;
     margin: 10px;
     font-size: 20px;
     color: white;
